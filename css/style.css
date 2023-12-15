@@ -4,3 +4,64 @@
     box-sizing: border-box;
 }
 /* reset */
+
+
+/* sezione nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    background-color: #222222;
+}
+
+.menu{
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.menu .settings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu i{
+    text-align: center;
+
+    font-size: 22px;
+}
+
+.menu .description{
+    font-size: 13px;
+}
+
+.menu .arrow{
+    /* font-size: 10px; */
+}
+
+#exit{
+    display: flex;
+    align-items: center;
+
+    color: red;
+    background-color: #4A4A4A;
+}
+/* fine sezione nav */
+
+
+
+/* sezione main */
+main{
+    border: solid 2px black;
+    height: 100vh;
+    margin-top: 10px;
+    /* test */
+}
+/* fine sezione main */
+
+
+
